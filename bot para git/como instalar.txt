@@ -1,0 +1,62 @@
+📥 Cómo Instalar (Guía para Usuarios)
+Sigue estos pasos en orden para dejar el bot funcionando:
+
+Preparación de los archivos: Asegúrate de tener los archivos interfaz-bot.exe, bot-lunch.exe y star.bott.bat en una misma carpeta.
+
+Ejecutar el Instalador: Haz doble clic en el archivo star.bott.bat. Verás una ventana negra instalando componentes. No la cierres hasta que diga "Instalación completada".
+
+Esto instalará el navegador necesario y pondrá el bot en tu carpeta de inicio para que se prenda solo con la PC.
+
+Configurar tus datos: Busca en tu Escritorio el acceso directo llamado configurador (o interfaz-bot) y ábrelo.
+
+Iniciar Sesión (MUY IMPORTANTE):
+
+Cierra todas las ventanas de Google Chrome que tengas abiertas.
+
+En el configurador, haz clic en "1. CONECTAR CUENTA MICROSOFT".
+
+Se abrirá un navegador. Pon tu correo y clave de la empresa.
+
+Cuando veas el formulario de almuerzo, cierra esa ventana del navegador.
+
+Elegir opciones y Guardar:
+
+Selecciona tu Sede, pon un comentario y marca si quieres recibir el correo de confirmación.
+
+Haz clic en "GUARDAR CAMBIOS".
+
+Nota: El bot ahora trabajará solo en segundo plano. No verás ninguna ventana abrirse cuando envíe el formulario.
+
+📤 Cómo Desinstalar (Limpieza Total)
+Si deseas quitar el bot por completo, sigue estos 3 pasos:
+
+Detener el Bot:
+
+Presiona las teclas Ctrl + Shift + Esc para abrir el Administrador de Tareas.
+
+Busca bot-lunch.exe, hazle clic derecho y selecciona "Finalizar tarea".
+
+Quitar del Inicio Automático:
+
+Presiona la tecla Windows + R, escribe %appdata% y presiona Enter.
+
+Ve a la carpeta: Microsoft \ Windows \ Start Menu \ Programs \ Startup.
+
+Borra el archivo bot-lunch.exe que está ahí dentro.
+
+Borrar datos de configuración:
+
+Regresa a la carpeta %appdata% (donde entraste en el paso anterior).
+
+Busca y borra estas dos carpetas/archivos:
+
+📁 bot_almuerzo_session (donde está tu login).
+
+📄 bot_almuerzo_config.json (donde están tus preferencias).
+
+Limpiar el Escritorio: Borra el acceso directo del configurador.
+
+🛡️ ¿Qué hacer si algo falla?
+Si el bot no envía el formulario: Abre el configurador y vuelve a iniciar sesión. A veces Microsoft "desconecta" la cuenta por seguridad.
+
+Si sale un error de "Target page closed": Borra la carpeta bot_almuerzo_session en %appdata% y repite el paso de Iniciar Sesión.

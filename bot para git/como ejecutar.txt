@@ -1,0 +1,17 @@
+🛠️ Lo que hace este script por ti:
+Selectores de precisión: Usa nth(0) y nth(1) para diferenciar los dos menús desplegables que se ven en tu imagen, ya que ambos tienen la misma estructura interna.
+
+Captura Inteligente: El nombre del archivo incluye el formato AAAA-MM-DD_HH-MM. Esto mantendrá tu carpeta de comprobantes perfectamente ordenada por fecha.
+
+Gestión de Errores: Si por alguna razón el formulario cambia o el internet falla, el bot tomará una captura con el prefijo ERROR_ para que puedas ver qué salió mal.
+
+Check de Correo: He puesto el texto largo: "Enviarme una confirmación por correo electrónico de mis respuestas", que es el que aparece al pie de tu imagen.
+
+📝 Instrucciones Finales
+Carpeta de sesión: La primera vez que lo corras, asegúrate de que headless=False esté puesto en el código para que puedas loguearte manualmente en Microsoft. Una vez hecho, las cookies se guardarán en user_data y podrás volver a ponerlo en True.
+
+Ubicación de archivos: El script creará la carpeta comprobantes en el mismo lugar donde guardes el archivo .py.
+
+recuerda
+se debe de instalar schedule y playwright
+tambien recuerda realizar un docker(segun lo que necesite python)

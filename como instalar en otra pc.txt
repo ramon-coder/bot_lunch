@@ -1,0 +1,22 @@
+Pasos para las otras PC:
+Instala Python.
+
+Copia la carpeta con el script.
+
+Ejecuta por única vez en la terminal: pip install playwright && python -m playwright install chromium
+
+Ejecuta el script y déjalo abierto (minimizado).
+
+/////////////////////////
+Cómo llevarlo a otras PC (El "Paquete")
+Ahora, para "instalar" el bot en cualquier computadora, solo necesitas llevar estos dos archivos en una carpeta o USB:
+
+bot_almuerzo.exe
+
+INSTALAR_BOT.bat
+
+Instrucciones en la nueva PC:
+
+Haces clic derecho en INSTALAR_BOT.bat y lo ejecutas como Administrador.
+
+¡Ya está! El script se encargará de que el .exe esté en la carpeta de Inicio, por lo que cada vez que el usuario prenda la PC, el bot se cargará silenciosamente.

@@ -1,0 +1,4 @@
+Comandos de Compilación (Ejecútalos así):
+Para el Bot (Invisible): pyinstaller --onefile --noconsole --name="bot_almuerzo" bot-lunch.py
+
+Para la Interfaz (Visible): pyinstaller --onefile --windowed --name="configurador" interfaz-bot.py

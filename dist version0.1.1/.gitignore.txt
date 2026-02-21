@@ -1,0 +1,30 @@
+# --- Datos Sensibles y Sesiones (CRÍTICO) ---
+# Ignora la carpeta donde se guardan las cookies de Microsoft
+bot_almuerzo_session/
+# Ignora el archivo de configuración con preferencias personales
+bot_almuerzo_config.json
+
+# --- Archivos de Compilación (PyInstaller) ---
+# Carpetas que genera PyInstaller al crear el .exe
+build/
+dist/
+# Archivos de especificación de compilación
+*.spec
+
+# --- Salidas del Bot ---
+# No queremos subir las fotos de tus comprobantes de almuerzo
+comprobantes/
+# Registros de errores locales
+error_log.txt
+
+# --- Python General ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# --- Otros ---
+.DS_Store
+Thumbs.db

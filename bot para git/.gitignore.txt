@@ -1,0 +1,13 @@
+bot_almuerzo_session/
+bot_almuerzo_config.json
+build/
+dist/
+error_log.txt
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db

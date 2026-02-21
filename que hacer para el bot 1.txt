@@ -1,0 +1,38 @@
+Para que el bot sea 100% infalible, lo ideal es que usemos los selectores internos de Microsoft Forms. Si el bot no está detectando las opciones, es porque el "nombre" que nosotros vemos en pantalla (como "Sede Excle") no coincide exactamente con lo que el código busca en el HTML.
+
+Para darme la información óptima, necesito que abras el formulario en tu navegador (Chrome o Edge), presiones F12 (o clic derecho -> Inspeccionar) sobre los elementos y me pases estos datos:
+
+1. El ID de la pregunta (Data-Automation-Id)
+Microsoft Forms usa etiquetas únicas para cada bloque de pregunta. Si haces clic derecho en el título de la pregunta "Ubicación" e inspeccionas, busca algo que diga:
+
+data-automation-id="questionItem"
+
+O un número largo dentro de un div.
+
+2. Los Atributos del Dropdown
+Haz clic derecho sobre el cuadro que dice "Select your answer" y dime qué dice en estas etiquetas:
+
+aria-label: (Ejemplo: "Ubicación" o "Seleccione su respuesta")
+
+class: (Ejemplo: "css-123")
+
+3. El Valor Real de las Opciones
+Este es el más importante. A veces nosotros vemos "Sede Excle", pero el código espera algo como "1" o "Sede_Excle".
+
+Haz clic en el menú para que se desplieguen las opciones.
+
+Haz clic derecho sobre la opción "Sede Excle" e Inspeccionar.
+
+Búscame el texto que está dentro de value="..." o el texto exacto dentro del <span>.
+
+Ejemplo de lo que puedes enviarme (un "copy-paste" del código):
+Si logras copiar la línea de código que sale en el inspector, sería perfecto. Algo así:
+
+<div role="option" aria-label="Sede Excle" ...>
+
+Un ajuste rápido que puedes probar YA:
+Si no quieres entrar al código de desarrollador todavía, prueba cambiando esta línea en tu script actual:
+
+Busca esto: page.get_by_role("option", name=MI_UBICACION).click()
+
+Cámbialo por esto (es más agresivo): page.get_by_text(MI_UBICACION, exact=False).first.click()

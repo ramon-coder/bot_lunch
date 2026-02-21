@@ -1,0 +1,3 @@
+como desinstalar el bot
+Último detalle de "pro":
+Si en alguna PC quieres desinstalarlo, es tan simple como ir a la carpeta de Inicio (puedes llegar rápido presionando Win + R y escribiendo shell:startup) y borrar el archivo .exe de ahí.
