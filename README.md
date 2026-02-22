@@ -30,18 +30,18 @@ Si quieres modificar el código, necesitarás:
 * Playwright (`pip install playwright`)
 * Tkinter (incluido en Python)
 
-Comando para instalar el navegador del bot:
+## Comando para instalar el navegador del bot:
 ```bash
 python -m playwright install chromium
 
-⚠️ Seguridad y Privacidad
+# ⚠️ Seguridad y Privacidad
 IMPORTANTE: Este bot guarda un "token" de sesión en la carpeta local %APPDATA%/bot_almuerzo_session.
 
 Nunca compartas esa carpeta con nadie.
 
 El archivo .gitignore de este repositorio ya está configurado para que no subas accidentalmente tus datos privados a GitHub.
 
-🗑️ Desinstalación
+# 🗑️ Desinstalación
 Cierra el proceso bot-lunch.exe desde el Administrador de Tareas.
 
 Borra el archivo de la carpeta de Inicio de Windows (%appdata%\Microsoft\Windows\Start Menu\Programs\Startup).
