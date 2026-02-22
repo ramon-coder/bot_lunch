@@ -1,6 +1,8 @@
 # 🍱 Sistema de Almuerzo Automático
 
 ¡Olvídate de llenar el formulario de almuerzo todos los días! Este proyecto automatiza el proceso utilizando **Python** y **Playwright**, permitiéndote configurar tus preferencias una sola vez y dejar que el bot trabaje por ti en segundo plano.
+<img width="411" height="738" alt="Sin título" src="https://github.com/user-attachments/assets/a8e00af7-311a-4ccb-9fc6-3d7ca1916fa9" />
+
 
 ## ✨ Características
 * **Automatización Invisible:** El bot se ejecuta en segundo plano sin interrumpir tu trabajo.
